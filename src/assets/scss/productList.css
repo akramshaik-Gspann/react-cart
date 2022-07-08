@@ -1,0 +1,154 @@
+.button-primary {
+  background-color: #1F39FF;
+  font-size: 14px;
+  color: #FFFFFF;
+  border-radius: 25px;
+  text-transform: uppercase;
+  border-color: transparent;
+  padding: 5px 100px;
+}
+
+.productCatalog {
+  margin: 25px 0px;
+}
+
+.productCatalog__title {
+  background-color: #1B252C;
+  height: 340px;
+  position: relative;
+  padding: 100px 0;
+}
+
+.productCatalog__title h3 {
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0;
+  font-size: 48px;
+}
+
+.productCatalog__title h3::before {
+  content: "";
+  background-color: #1F39FF;
+  width: 30%;
+  position: absolute;
+  height: 5px;
+  top: 70%;
+  left: 35%;
+}
+
+.productCatalog__image img {
+  width: 100%;
+  height: 320px;
+  margin-top: 10px;
+}
+
+.breadcrumbslist {
+  margin-top: 25px;
+}
+
+.breadcrumbslist select {
+  border: 1px solid #B5B7BC;
+  border-radius: 8px;
+  padding: 5px 20px;
+  color: #172026;
+  height: 44px;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+.breadcrumbslist__filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.productfilter {
+  padding-top: 20px;
+}
+
+.productfilter .productfilters {
+  padding-right: 30px;
+}
+
+.productfilter .productfilters p {
+  border-top: 1px solid #dcdcdc;
+  padding-top: 10px;
+}
+
+.productfilter .productfilters input[type=checkbox] {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-top: 0;
+  border: 1px solid #91959C;
+}
+
+.productfilter .productfilters label {
+  font-weight: normal;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.productfilter .productfilters a {
+  color: #181C24;
+  text-decoration: underline;
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.productfilter .productfilters button {
+  width: 50px;
+  height: 40px;
+  border: 2px solid #91959C;
+  border-radius: 6px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.productfilter .productfilters .btn-1 {
+  background-color: #172026;
+}
+
+.productfilter .productfilters .btn-2 {
+  background-color: #FFFFFF;
+}
+
+.productfilter .productfilters .btn-3 {
+  background-color: #2D9D78;
+}
+
+.productfilter .productfilters .btn-4 {
+  background-color: #FDBA5E;
+}
+
+.productfilter .productfilters .btn-5 {
+  background-color: #87CEEB;
+}
+
+.productfilter .productfilters .btn-6 {
+  background-color: #E34850;
+}
+
+.productfilter .productfilters .btn-7 {
+  background-color: #6408D3;
+}
+
+.productfilter .productfilters .btn-8 {
+  background-color: #F9009A;
+}
+
+.productfilter .productfilters .btn-9 {
+  background-color: #EB7327;
+}
+
+.productfilter .productfilters .btn-10 {
+  background-color: #228B22;
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=productList.css.map */

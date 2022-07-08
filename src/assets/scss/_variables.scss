@@ -1,0 +1,27 @@
+$primary-color: #1F39FF;
+$secondary-color: #1B252C;
+$teritary-color: #FFFFFF;
+$footer-text: #545D63;
+$footer-head: #172026;
+$product-text:#172026;
+
+@mixin flex-props {
+    display: flex;
+    justify-content: space-between;
+}
+
+// button style variables
+$button-bg-color: #1F39FF;
+$button-border-radius: 25px;
+$button-text-transform: uppercase;
+$button-font: 14px;
+
+.button-primary{
+    background-color: $button-bg-color;
+    font-size: $button-font;
+    color: $teritary-color;
+    border-radius: $button-border-radius;
+    text-transform: $button-text-transform;
+    border-color: transparent;
+    padding: 5px 100px;
+}

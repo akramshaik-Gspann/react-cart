@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,mBAAmB,CAAC;EACnB,SAAS,EAAE,eAAe;EAC1B,KAAK,EAJI,OAAO;CAKhB",
+    "sources": [
+        "breadCrumb.scss"
+    ],
+    "names": [],
+    "file": "breadCrumb.css"
+}
